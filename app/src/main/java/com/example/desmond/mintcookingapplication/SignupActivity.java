@@ -11,13 +11,32 @@ import android.widget.Button;
 
 public class SignupActivity extends ActionBarActivity {
 
+    Button myButton1;
+    Button myButton2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup);
-        
-        setCancelButton();
-        setSignupButton();
+
+        // setSignupButton();
+        myButton1 = (Button) findViewById(R.id.btnstickrice);
+
+        myButton1.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(SignupActivity.this, LoginActivity.class));
+            }
+        });
+        // setCancelButton();
+        myButton2 = (Button) findViewById(R.id.btnCancel);
+
+        myButton2.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(SignupActivity.this, LoginActivity.class));
+            }
+        });
+
+
     }
 
     private void setSignupButton() {

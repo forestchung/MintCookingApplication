@@ -10,25 +10,101 @@ import android.widget.ImageButton;
 
 
 public class HomeActivity extends ActionBarActivity {
+    ImageButton btn1;
+    ImageButton btn2;
+    ImageButton btn3;
+    ImageButton btn4;
+    ImageButton btn5;
+    ImageButton btn6;
+    ImageButton btn7;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
 
-        setupHomeButton();
-        setupRecipeButton();
-        setupIceboxButton();
-        setupTipsButton();
-        setupProfileButton();
-        setupStickriceButton();
-        setupLogoutButton();
+        btn1 = (ImageButton) findViewById(R.id.btnLogout);
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, SignupActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        /*
+        btn2 = (ImageButton) findViewById(R.id.ibtnstickrice);
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, StickricerecipeActivity.class);
+                startActivity(intent);
+            }
+        });
+*/
+        btn3 = (ImageButton) findViewById(R.id.btnprofile);
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn4 = (ImageButton) findViewById(R.id.btntips);
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, TipsActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn5 = (ImageButton) findViewById(R.id.btnicebox);
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, IceboxActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn6 = (ImageButton) findViewById(R.id.btnrecipe);
+
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, RecipeActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn7 = (ImageButton) findViewById(R.id.btnhome);
+
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+     // setupHomeButton();
+     //  setupRecipeButton();
+     //  setupIceboxButton();
+      //  setupTipsButton();
+      //  setupProfileButton();
+      // setupStickriceButton();
+       // setupLogoutButton();
     }
 
     private void setupLogoutButton() {
-        ImageButton btn = (ImageButton) findViewById(R.id.btnLogout);
+        btn1 = (ImageButton) findViewById(R.id.btnLogout);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, SignupActivity.class);
@@ -38,9 +114,9 @@ public class HomeActivity extends ActionBarActivity {
     }
 
     private void setupStickriceButton() {
-        ImageButton btn = (ImageButton) findViewById(R.id.btnstickrice);
+        btn2 = (ImageButton) findViewById(R.id.btnstickrice);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, StickricerecipeActivity.class);
@@ -50,9 +126,9 @@ public class HomeActivity extends ActionBarActivity {
     }
 
     private void setupProfileButton() {
-        ImageButton btn = (ImageButton) findViewById(R.id.btnprofile);
+        btn3 = (ImageButton) findViewById(R.id.btnprofile);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, ProfileActivity.class);
@@ -62,9 +138,9 @@ public class HomeActivity extends ActionBarActivity {
     }
 
     private void setupTipsButton() {
-        ImageButton btn = (ImageButton) findViewById(R.id.btntips);
+        btn4 = (ImageButton) findViewById(R.id.btntips);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, TipsActivity.class);
@@ -74,9 +150,9 @@ public class HomeActivity extends ActionBarActivity {
     }
 
     private void setupIceboxButton() {
-        ImageButton btn = (ImageButton) findViewById(R.id.btnicebox);
+         btn5 = (ImageButton) findViewById(R.id.btnicebox);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, IceboxActivity.class);
@@ -86,9 +162,9 @@ public class HomeActivity extends ActionBarActivity {
     }
 
     private void setupRecipeButton() {
-        ImageButton btn = (ImageButton) findViewById(R.id.btnrecipe);
+         btn6 = (ImageButton) findViewById(R.id.btnrecipe);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, RecipeActivity.class);
@@ -99,9 +175,9 @@ public class HomeActivity extends ActionBarActivity {
 
     private void setupHomeButton() {
 
-        ImageButton btn = (ImageButton) findViewById(R.id.btnhome);
+         btn7 = (ImageButton) findViewById(R.id.btnhome);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, HomeActivity.class);

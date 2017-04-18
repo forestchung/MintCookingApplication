@@ -11,15 +11,20 @@ import android.widget.Button;
 
 public class LoginActivity extends ActionBarActivity {
 
+    Button SignUpButton ;
+    Button LoginButton ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-            Button SignUpButton = (Button) findViewById(R.id.btnSignup);
+           // Button SignUpButton = (Button) findViewById(R.id.btnSignup);
 
+        SignUpButton = (Button) findViewById(R.id.btnSignup);
             SignUpButton.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
+
                     Intent intent = new Intent();
                     intent.setClass(LoginActivity.this, SignupActivity.class);
                     startActivity(intent);
@@ -28,7 +33,7 @@ public class LoginActivity extends ActionBarActivity {
             });
 
 
-            Button LoginButton = (Button) findViewById(R.id.btnLogin);
+            LoginButton = (Button) findViewById(R.id.btnLogin);
             LoginButton.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     startActivity(new Intent(LoginActivity.this, HomeActivity.class));

@@ -70,16 +70,16 @@
                     android:contentDescription="@string/title_activity_home" />
 
                 <ImageView
+                    android:id="@+id/ivstickrice"
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
-                    android:id="@+id/btnstickrice"
-                    android:background="@drawable/stickyrice"
                     android:layout_marginTop="30dp"
+                    android:background="@drawable/stickyrice"
                     android:baselineAlignBottom="false"
                     android:clickable="false"
+                    android:contentDescription="@string/title_activity_home"
                     android:cropToPadding="false"
-                    android:focusable="false"
-                    android:contentDescription="@string/title_activity_home" />
+                    android:focusable="false" />
 
             </LinearLayout>
         </ScrollView>
