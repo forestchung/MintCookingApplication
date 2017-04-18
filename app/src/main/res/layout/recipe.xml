@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mintback5"
+    android:id="@+id/Recipe">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#ff72db9f"
+        android:backgroundTintMode="screen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Recipe"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:autoText="false"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogout"
+            android:background="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="92dp"
+            android:contentDescription="@string/title_activity_recipe" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:id="@+id/recipe2">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Chinese"
+            android:id="@+id/btnchineserecipe"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:textSize="28sp"
+            android:background="#fffdbd23" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Japan"
+            android:id="@+id/button8"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="#fffcff3a"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Korea"
+            android:id="@+id/button9"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="#fffdbd23"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Europe"
+            android:id="@+id/button10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="#fffcff3a"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Southest Aisa"
+            android:id="@+id/button11"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="#fffdbd23"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="#ffffffff"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
+            android:background="@drawable/greyhome"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:contentDescription="@string/title_activity_recipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnrecipe"
+            android:backgroundTint="#ff30c3d2"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/recipe"
+            android:contentDescription="@string/title_activity_recipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnicebox"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:background="@drawable/greyicebox"
+            android:contentDescription="@string/title_activity_recipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntips"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greytips"
+            android:contentDescription="@string/title_activity_recipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofile"
+            android:background="@drawable/greyprofile"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:contentDescription="@string/title_activity_recipe" />
+    </LinearLayout>
+
+</LinearLayout>

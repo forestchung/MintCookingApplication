@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mintback5">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#ff72db9f"
+        android:backgroundTintMode="screen">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnback"
+            android:background="@drawable/back"
+            android:layout_marginLeft="7dp"
+            android:clickable="true"
+            android:contentDescription="@string/title_activity_winterfruit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tips"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="109dp"
+            android:autoText="false"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogout"
+            android:background="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="105dp"
+            android:contentDescription="@string/title_activity_winterfruit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="#279bffde"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView5" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="125dp"
+                        android:id="@+id/imageView8"
+                        android:background="@drawable/burseel"
+                        android:contentDescription="@string/title_activity_winterfruit" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Brussels Sprouts"
+                            android:id="@+id/textView35"
+                            android:layout_marginLeft="10dp"
+                            android:textStyle="bold|italic"
+                            android:textSize="18sp" />
+
+                        <ScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/scrollView6" >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Peak Season: September through February"
+                                    android:id="@+id/textView36"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1.38"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Storage Tips: Brussels sprouts will keep in the fridge for a few weeks. The outer leaves will shrivel, so remove them just before cooking your sprouts."
+                                    android:id="@+id/textView37"
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="How to Eat It: Toss halved sprouts with olive oil and roast until crispy and brown. Top with a light coating of brown butter and sage for a decadent (but still healthy) side dish."
+                                    android:id="@+id/textView38"
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp" />
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="352dp"
+                    android:layout_height="136dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="125dp"
+                        android:id="@+id/imageView9"
+                        android:background="@drawable/phtato"
+                        android:contentDescription="@string/title_activity_winterfruit" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="1" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Potatoes"
+                            android:id="@+id/textView39"
+                            android:layout_marginLeft="10dp"
+                            android:textStyle="bold|italic"
+                            android:textSize="18sp" />
+
+                        <ScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/scrollView7" >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Peak Season: Various varieties of potatoes are available year-round."
+                                    android:id="@+id/textView40"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1.38"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Storage Tips: Store potatoes in a dark, cool, well-ventilated area for about one month. Keep spuds away from onions and apples. At room temperature, potatoes will keep for one to two weeks."
+                                    android:id="@+id/textView41"
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="How to Eat It: Try a healthier take on the classic baked potato bar. Twice-baked spuds stuffed with kale, broccoli, and cheddar make for a tasty and comforting meal."
+                                    android:id="@+id/textView42"
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp" />
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="352dp"
+                    android:layout_height="136dp"
+                    android:layout_marginTop="15dp" >
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="125dp"
+                        android:id="@+id/imageView10"
+                        android:background="@drawable/onions"
+                        android:contentDescription="@string/title_activity_winterfruit" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="1" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Onions"
+                            android:id="@+id/textView43"
+                            android:layout_marginLeft="10dp"
+                            android:textStyle="bold|italic"
+                            android:textSize="18sp" />
+
+                        <ScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/scrollView8" >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Peak Season: Various types of onions are available all year round."
+                                    android:id="@+id/textView44"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1.38"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Storage Tips: Stash onions outside the fridge (they can go soft if refrigerated) in a cool, dry place for several months.Storage Tips: Stash onions outside the fridge (they can go soft if refrigerated) in a cool, dry place for several months."
+                                    android:id="@+id/textView45"
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="How to Eat It: Sautéed white onion jazzes up this fig, ricotta, and arugula flatbread pizza.How to Eat It: Sautéed white onion jazzes up this fig, ricotta, and arugula flatbread pizza."
+                                    android:id="@+id/textView46"
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp" />
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
+            android:background="@drawable/greyhome"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:contentDescription="@string/title_activity_winterfruit" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnrecipe"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greyrecipe"
+            android:contentDescription="@string/title_activity_winterfruit" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnicebox"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:background="@drawable/greyicebox"
+            android:contentDescription="@string/title_activity_winterfruit" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntips"
+            android:backgroundTint="#ff30c3d2"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/tips"
+            android:contentDescription="@string/title_activity_winterfruit" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofile"
+            android:background="@drawable/greyprofile"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:contentDescription="@string/title_activity_winterfruit" />
+    </LinearLayout>
+
+</LinearLayout>

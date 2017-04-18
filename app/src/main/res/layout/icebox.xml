@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#ff72db9f"
+        android:backgroundTintMode="screen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="My Icebox"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="135dp"
+            android:autoText="false"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogout"
+            android:background="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="66.5dp"
+            android:contentDescription="@string/title_activity_icebox" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:background="#279bffde"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.78"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Recent Materials"
+                android:id="@+id/textView50"
+                android:textSize="21sp"
+                android:paddingLeft="120dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:background="#ff5ff1ff" />
+
+            <ExpandableListView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/expandableListView"
+                android:layout_weight="0.90" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:id="@+id/btnEdit"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:background="#ffff8933" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Generate"
+                android:id="@+id/btnGen"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:background="#ffff8933" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
+            android:background="@drawable/greyhome"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:clickable="false"
+            android:contentDescription="@string/title_activity_icebox" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnrecipe"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greyrecipe"
+            android:contentDescription="@string/title_activity_icebox" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnicebox"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff30c3d2"
+            android:background="@drawable/icebox"
+            android:contentDescription="@string/title_activity_icebox" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntips"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greytips"
+            android:contentDescription="@string/title_activity_icebox" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofile"
+            android:background="@drawable/greyprofile"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:contentDescription="@string/title_activity_icebox" />
+    </LinearLayout>
+
+</LinearLayout>

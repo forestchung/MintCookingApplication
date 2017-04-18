@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mintback5"
+    android:id="@+id/Profile">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#ff72db9f"
+        android:backgroundTintMode="screen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Profile"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:autoText="false"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogout"
+            android:background="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="94dp"
+            android:contentDescription="@string/title_activity_profile" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="116dp"
+        android:weightSum="1"
+        android:id="@+id/porfileDetail"
+        android:background="#279bffde">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/profilelogo"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/title_activity_profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="User Name"
+            android:id="@+id/testView4"
+            android:textSize="25sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:id="@+id/btnEditProfile"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffff8933"
+            android:textSize="22sp"
+            android:textColor="#ff000000" />
+
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.78"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:id="@+id/profile3"
+        android:background="#279bffde">
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="0dp"
+            android:layout_y="0dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <LinearLayout
+                        android:id="@+id/Recipe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#6adef4ff"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="140dp">
+
+                            <ScrollView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/scrollView9" >
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="175dp"
+                                        android:layout_height="140dp"
+                                        android:id="@+id/imageView12"
+                                        android:background="@drawable/mushroomrice"
+                                        android:contentDescription="@string/title_activity_profile" />
+
+                                    <ScrollView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/scrollView10"
+                                        android:paddingLeft="10dp">
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                                android:text="Ingrident: Brown mushroom 200g Beef soup 300ml Unsalted butter 20g Flour 15g Black pepper 1/2tsp Salt 1/4tsp Sugar 1/2tsp "
+                                                android:id="@+id/textView2" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                                android:text="After the brown mushrooms, washed and cut stalks and cut into pieces Behind the fire until soft spare dish Butter, add flour and cook until golden brown Add beef broth and bring to boil Add mushrooms, black pepper, salt, sugar to taste Each broth even have the same salinity I remember falling slowly try salt taste it Pepper favorite can drop more than d"
+                                                android:id="@+id/textView47" />
+                                        </LinearLayout>
+                                    </ScrollView>
+                                </LinearLayout>
+                            </ScrollView>
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+                            android:text="Upload you recipe here"
+                            android:id="@+id/btnUploadRecipe"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#ff6040d9"
+                            android:textColor="#ffffffff"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Bookmark"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        android:touchscreenBlocksFocus="false"
+                        android:transitionGroup="false"
+                        android:focusable="false"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="#6adef4ff"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin">
+
+                        <ScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/scrollView2" >
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:measureWithLargestChild="false"
+                                android:layoutMode="opticalBounds">
+
+                                <ImageButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp"
+                                    android:id="@+id/btnstickrice"
+                                    android:background="@drawable/stickyrice"
+                                    android:contentDescription="@string/title_activity_profile" />
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="200dp"
+                                    android:id="@+id/imageButton7"
+                                    android:background="@drawable/gingerbread"
+                                    android:nestedScrollingEnabled="false"
+                                    android:layout_marginTop="15dp"
+                                    android:contentDescription="@string/title_activity_profile" />
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="200dp"
+                                    android:id="@+id/imageButton8"
+                                    android:background="@drawable/herbaltea"
+                                    android:layout_marginTop="15dp"
+                                    android:contentDescription="@string/title_activity_profile" />
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="200dp"
+                                    android:id="@+id/imageButton9"
+                                    android:background="@drawable/stickyrice"
+                                    android:layout_marginTop="15dp"
+                                    android:contentDescription="@string/title_activity_profile" />
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="#ffffffff"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
+            android:background="@drawable/greyhome"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:contentDescription="@string/title_activity_profile" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnrecipe"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greyrecipe"
+            android:contentDescription="@string/title_activity_profile" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnicebox"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:background="@drawable/greyicebox"
+            android:contentDescription="@string/title_activity_profile" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntips"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greytips"
+            android:contentDescription="@string/title_activity_profile" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofile"
+            android:background="@drawable/profile"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff30c3d2"
+            android:contentDescription="@string/title_activity_profile" />
+    </LinearLayout>
+
+</LinearLayout>

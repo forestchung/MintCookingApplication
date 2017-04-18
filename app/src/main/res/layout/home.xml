@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="screen"
+    android:background="@drawable/mintback5"
+    android:id="@+id/home">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:backgroundTintMode="screen"
+        android:id="@+id/home1"
+        android:background="#ff72db9f">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Home"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="158dp"
+            android:autoText="false"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogout"
+            android:background="@drawable/logout"
+            android:layout_marginLeft="92dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/title_activity_home" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/home2"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:id="@+id/scrollView"
+            android:fillViewport="false"
+            android:backgroundTintMode="screen">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layoutMode="opticalBounds"
+                android:baselineAligned="false"
+                android:clickable="false"
+                android:longClickable="false"
+                android:measureWithLargestChild="false"
+                android:touchscreenBlocksFocus="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/pudding"
+                    android:contentDescription="@string/title_activity_home" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:id="@+id/btnstickrice"
+                    android:background="@drawable/stickyrice"
+                    android:layout_marginTop="30dp"
+                    android:baselineAlignBottom="false"
+                    android:clickable="false"
+                    android:cropToPadding="false"
+                    android:focusable="false"
+                    android:contentDescription="@string/title_activity_home" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
+            android:background="@drawable/home"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#ff30c3d2"
+            android:backgroundTintMode="screen"
+            android:contentDescription="@string/title_activity_home" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnrecipe"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greyrecipe"
+            android:contentDescription="@string/title_activity_home" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnicebox"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:background="@drawable/greyicebox"
+            android:contentDescription="@string/title_activity_home" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntips"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greytips"
+            android:contentDescription="@string/title_activity_home" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofile"
+            android:background="@drawable/greyprofile"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:contentDescription="@string/title_activity_home" />
+    </LinearLayout>
+
+</LinearLayout>

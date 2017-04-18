@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout"
+    android:background="@drawable/mintback5">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#ff72db9f"
+        android:id="@+id/LinearLayout2">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnback"
+            android:background="@drawable/back"
+            android:layout_marginLeft="7dp"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Suggested Recipe"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="38dp"
+            android:autoText="false"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogout"
+            android:background="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="17dp"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:background="#279bffde"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/LinearLayout3"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/btnstickrice"
+            android:background="@drawable/stickyricebutton"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/imageButton11"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/title_activity_chineserecipe"
+            android:layout_weight="0.21"
+            android:background="@drawable/tomatorgg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="#ffffffff"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
+            android:background="@drawable/greyhome"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnrecipe"
+            android:backgroundTint="#ff30c3d2"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/recipe"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnicebox"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:background="@drawable/greyicebox"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntips"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greytips"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofile"
+            android:background="@drawable/greyprofile"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:contentDescription="@string/title_activity_chineserecipe" />
+    </LinearLayout>
+
+</LinearLayout>

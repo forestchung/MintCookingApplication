@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mint Cooking Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="title_activity_chineserecipe">ChineserecipeActivity</string>
+    <string name="title_activity_stickricerecipe">StickricerecipeActivity</string>
+    <string name="title_activity_icebox">IceboxActivity</string>
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="title_activity_winterfruit">WinterfruitActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_editprofile">EditprofileActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_uploadrecipe">UploadrecipeActivity</string>
+    <string name="title_activity_editicebox">EditiceboxActivity</string>
+    <string name="title_activity_suggestrecipe">SuggestrecipeActivity</string>
+    <string name="openNewActivity" />
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mintback5">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#ff72db9f"
+        android:backgroundTintMode="screen"
+        android:id="@+id/tips1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tips"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginLeft="165dp"
+            android:autoText="false"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnLogout"
+            android:background="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="105dp"
+            android:contentDescription="@string/title_activity_tips" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="170dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/cooktip"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/title_activity_tips" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="Best Fruit to eat in winter"
+            android:id="@+id/btnWinter"
+            android:layout_marginTop="15dp"
+            android:background="#dc22c319"
+            android:textColor="#ffffffff"
+            android:textStyle="bold|normal|italic" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="What’s the Best Cooking Oil?"
+            android:id="@+id/button5"
+            android:layout_marginTop="12dp"
+            android:background="#ffff3b21"
+            android:textColor="#ffffffff"
+            android:textStyle="bold|normal|italic" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="How to Make the Perfect Boiled Egg"
+            android:id="@+id/button6"
+            android:layout_marginTop="12dp"
+            android:background="#ff311cff"
+            android:textColor="#ffffffff"
+            android:textStyle="bold|normal|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="#ffffffff"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
+            android:background="@drawable/greyhome"
+            android:adjustViewBounds="false"
+            android:backgroundTintMode="screen"
+            android:contentDescription="@string/title_activity_tips"
+            android:backgroundTint="#ff72db9f" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnrecipe"
+            android:backgroundTint="#ff72db9f"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/greyrecipe"
+            android:contentDescription="@string/title_activity_tips" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnicebox"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:background="@drawable/greyicebox"
+            android:contentDescription="@string/title_activity_tips" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntips"
+            android:backgroundTint="#ff30c3d2"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/tips"
+            android:contentDescription="@string/title_activity_tips" />
+
+        <ImageButton
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprofile"
+            android:background="@drawable/greyprofile"
+            android:backgroundTintMode="screen"
+            android:backgroundTint="#ff72db9f"
+            android:contentDescription="@string/title_activity_tips" />
+    </LinearLayout>
+
+</LinearLayout>

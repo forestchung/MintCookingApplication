@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.desmond.mintcookingapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mint_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".RecipeActivity"
+            android:label="@string/title_activity_recipe" >
+        </activity>
+        <activity
+            android:name=".ChineserecipeActivity"
+            android:label="@string/title_activity_chineserecipe" >
+        </activity>
+        <activity
+            android:name=".StickricerecipeActivity"
+            android:label="@string/title_activity_stickricerecipe" >
+        </activity>
+        <activity
+            android:name=".IceboxActivity"
+            android:label="@string/title_activity_icebox" >
+        </activity>
+        <activity
+            android:name=".TipsActivity"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name=".WinterfruitActivity"
+            android:label="@string/title_activity_winterfruit" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".EditprofileActivity"
+            android:label="@string/title_activity_editprofile" >
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name=".UploadrecipeActivity"
+            android:label="@string/title_activity_uploadrecipe" >
+        </activity>
+        <activity
+            android:name=".EditiceboxActivity"
+            android:label="@string/title_activity_editicebox" >
+        </activity>
+        <activity
+            android:name=".SuggestrecipeActivity"
+            android:label="@string/title_activity_suggestrecipe" >
+        </activity>
+    </application>
+
+</manifest>
